@@ -77,7 +77,7 @@
 		CF0BAB5F221D7B8D0055880B /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		CF0BAB64221D7D810055880B /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		CF0BAB6D221D89490055880B /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
-		CF66157021AF05AD007432AF /* Meetup MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meetup MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF66157021AF05AD007432AF /* MVVM Rx boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Rx boilerplate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF66157321AF05AD007432AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF66157A21AF05AE007432AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF66157D21AF05AE007432AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		CF66156721AF05AD007432AF = {
 			isa = PBXGroup;
 			children = (
-				CF66157221AF05AD007432AF /* Meetup MVVM */,
+				CF66157221AF05AD007432AF /* MVVM Rx boilerplate */,
 				CF66157121AF05AD007432AF /* Products */,
 				CF6615C821B3449B007432AF /* Frameworks */,
 			);
@@ -162,12 +162,12 @@
 		CF66157121AF05AD007432AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF66157021AF05AD007432AF /* Meetup MVVM.app */,
+				CF66157021AF05AD007432AF /* MVVM Rx boilerplate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF66157221AF05AD007432AF /* Meetup MVVM */ = {
+		CF66157221AF05AD007432AF /* MVVM Rx boilerplate */ = {
 			isa = PBXGroup;
 			children = (
 				CF5F5D002216E2BF00FCBE46 /* Network */,
@@ -182,7 +182,7 @@
 				CF0BAB64221D7D810055880B /* .swiftlint.yml */,
 				CFD5C4252226D5AF00B45A55 /* .gitignore */,
 			);
-			path = "Meetup MVVM";
+			path = "MVVM Rx boilerplate";
 			sourceTree = "<group>";
 		};
 		CF6615A521B17C11007432AF /* Models */ = {
@@ -295,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF66156F21AF05AD007432AF /* Meetup MVVM */ = {
+		CF66156F21AF05AD007432AF /* MVVM Rx boilerplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF66158221AF05AE007432AF /* Build configuration list for PBXNativeTarget "Meetup MVVM" */;
+			buildConfigurationList = CF66158221AF05AE007432AF /* Build configuration list for PBXNativeTarget "MVVM Rx boilerplate" */;
 			buildPhases = (
 				CF66156C21AF05AD007432AF /* Sources */,
 				CF66156D21AF05AD007432AF /* Frameworks */,
@@ -309,9 +309,9 @@
 			);
 			dependencies = (
 			);
-			name = "Meetup MVVM";
+			name = "MVVM Rx boilerplate";
 			productName = "Meetup MVVM";
-			productReference = CF66157021AF05AD007432AF /* Meetup MVVM.app */;
+			productReference = CF66157021AF05AD007432AF /* MVVM Rx boilerplate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +329,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "Meetup MVVM" */;
+			buildConfigurationList = CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "MVVM Rx boilerplate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -342,7 +342,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF66156F21AF05AD007432AF /* Meetup MVVM */,
+				CF66156F21AF05AD007432AF /* MVVM Rx boilerplate */,
 			);
 		};
 /* End PBXProject section */
@@ -551,12 +551,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "Meetup MVVM/Info.plist";
+				INFOPLIST_FILE = "MVVM Rx boilerplate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.Meetup-MVVM";
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.MVVM-Rx-boilerplate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,12 +573,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "Meetup MVVM/Info.plist";
+				INFOPLIST_FILE = "MVVM Rx boilerplate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.Meetup-MVVM";
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.MVVM-Rx-boilerplate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,7 +588,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "Meetup MVVM" */ = {
+		CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "MVVM Rx boilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF66158021AF05AE007432AF /* Debug */,
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF66158221AF05AE007432AF /* Build configuration list for PBXNativeTarget "Meetup MVVM" */ = {
+		CF66158221AF05AE007432AF /* Build configuration list for PBXNativeTarget "MVVM Rx boilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF66158321AF05AE007432AF /* Debug */,

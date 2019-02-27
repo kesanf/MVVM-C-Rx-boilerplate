@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Moya
 import RxMoya
 
 class CharactersListViewModel: NSObject {
