@@ -34,29 +34,16 @@ extension CharacterService: TargetType {
 
     var task: Task {
         switch self {
-        case .getCharacters: // Send no parameters
+        case .getCharacters:
             return .requestPlain
         }
     }
 
     var sampleData: Data {
-        switch self {
-        case .getCharacters:
-            return Data()
-        }
+        return Data()
     }
     
     var headers: [String: String]? {
         return ["Content-type": "application/json"]
-    }
-}
-// MARK: - Helpers
-private extension String {
-    var urlEscaped: String {
-        return addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
-    }
-
-    var utf8Encoded: Data {
-        return data(using: .utf8)!
     }
 }
