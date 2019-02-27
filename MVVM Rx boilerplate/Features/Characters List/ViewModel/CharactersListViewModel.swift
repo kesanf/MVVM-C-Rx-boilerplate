@@ -12,9 +12,8 @@ import RxCocoa
 import Moya
 import RxMoya
 
-class CharactersListViewModel: NSObject {
+class CharactersListViewModel: BaseModel {
 
-    let bag: DisposeBag = DisposeBag()
     var dataReady = Variable<Bool>(false)
     let title = Variable<String>("Characters")
     

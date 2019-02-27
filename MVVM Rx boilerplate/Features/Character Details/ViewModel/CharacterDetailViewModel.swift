@@ -10,9 +10,8 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class CharacterDetailViewModel: NSObject {
+class CharacterDetailViewModel: BaseModel {
 
-    let bag: DisposeBag = DisposeBag()
     let title = Variable<String>("Character Details")
     
     var thumbnail: Driver<URL?>!
