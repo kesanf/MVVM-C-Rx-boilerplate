@@ -9,6 +9,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Moya
 
 class CharactersListViewModel: NSObject {
 
@@ -29,12 +30,22 @@ class CharactersListViewModel: NSObject {
     }
 
     func fetchCharacters() {
-        CharactersController.shared.getCharacters().subscribe(onNext: { [weak self] characters in
-            self?.characters.value = characters.results
-            self?.dataReady.value = true
+        let provider = MoyaProvider<CharacterService>()
+        provider.request(.getCharacters()) { [weak self] result in
+            guard let self = self else { return }
 
-            }, onError: { error in
-                print(error)
-        }).disposed(by: bag)
+            switch result {
+            case .success(let response):
+                do {
+                    let characters = try response.map(Characters.self)
+                    self.characters.value = characters.results
+                    self.dataReady.value = true
+                } catch {
+                    print("error")
+                }
+            case .failure:
+                print("failure")
+            }
+        }
     }
 }

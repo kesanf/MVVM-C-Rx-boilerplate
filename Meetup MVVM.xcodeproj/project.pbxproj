@@ -9,16 +9,12 @@
 /* Begin PBXBuildFile section */
 		CF0BAB42221D71280055880B /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB41221D71280055880B /* UIWindowExtension.swift */; };
 		CF0BAB44221D71570055880B /* RxSwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB43221D71570055880B /* RxSwiftExtension.swift */; };
-		CF0BAB46221D71C00055880B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB45221D71C00055880B /* Constants.swift */; };
-		CF0BAB48221D71F30055880B /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB47221D71F30055880B /* ApiRouter.swift */; };
-		CF0BAB4A221D72530055880B /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB49221D72530055880B /* ApiClient.swift */; };
 		CF0BAB4D221D73F40055880B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB4C221D73F40055880B /* BaseModel.swift */; };
 		CF0BAB4F221D740C0055880B /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB4E221D740C0055880B /* BaseTableCell.swift */; };
 		CF0BAB51221D742B0055880B /* BaseHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB50221D742B0055880B /* BaseHeaderCell.swift */; };
 		CF0BAB53221D745F0055880B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB52221D745F0055880B /* Router.swift */; };
 		CF0BAB55221D746C0055880B /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB54221D746C0055880B /* Presentable.swift */; };
 		CF0BAB59221D75130055880B /* CharactersListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB58221D75130055880B /* CharactersListDataSource.swift */; };
-		CF0BAB5C221D75C80055880B /* CharactersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB5B221D75C80055880B /* CharactersController.swift */; };
 		CF0BAB5E221D76FE0055880B /* CharacterDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB5D221D76FE0055880B /* CharacterDetailCoordinator.swift */; };
 		CF0BAB60221D7B8D0055880B /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB5F221D7B8D0055880B /* UIImageViewExtension.swift */; };
 		CF0BAB65221D7D810055880B /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = CF0BAB64221D7D810055880B /* .swiftlint.yml */; };
@@ -41,6 +37,10 @@
 		CF6615EA21B43A6F007432AF /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6615C921B3449B007432AF /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF6615F121B449AD007432AF /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6615EE21B449A9007432AF /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CFD5C4242226D13700B45A55 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5C4232226D13700B45A55 /* CharacterService.swift */; };
+		CFD5C4262226D5AF00B45A55 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CFD5C4252226D5AF00B45A55 /* .gitignore */; };
+		CFD5C42C2226D73600B45A55 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFD5C4272226D73000B45A55 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFD5C42E2226D73A00B45A55 /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFD5C4282226D73000B45A55 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFD5C4332226DCF000B45A55 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFD5C4302226DCEB00B45A55 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,7 +53,10 @@
 				CF0BAB70221D894F0055880B /* Kingfisher.framework in Embed Frameworks */,
 				CF6615F121B449AD007432AF /* RxCocoa.framework in Embed Frameworks */,
 				CF6615EA21B43A6F007432AF /* SnapKit.framework in Embed Frameworks */,
+				CFD5C4332226DCF000B45A55 /* Result.framework in Embed Frameworks */,
 				CF6615E821B43A6F007432AF /* RxSwift.framework in Embed Frameworks */,
+				CFD5C42C2226D73600B45A55 /* Moya.framework in Embed Frameworks */,
+				CFD5C42E2226D73A00B45A55 /* RxMoya.framework in Embed Frameworks */,
 				CF6615E621B43A6F007432AF /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -64,16 +67,12 @@
 /* Begin PBXFileReference section */
 		CF0BAB41221D71280055880B /* UIWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
 		CF0BAB43221D71570055880B /* RxSwiftExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExtension.swift; sourceTree = "<group>"; };
-		CF0BAB45221D71C00055880B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		CF0BAB47221D71F30055880B /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
-		CF0BAB49221D72530055880B /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		CF0BAB4C221D73F40055880B /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		CF0BAB4E221D740C0055880B /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
 		CF0BAB50221D742B0055880B /* BaseHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHeaderCell.swift; sourceTree = "<group>"; };
 		CF0BAB52221D745F0055880B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		CF0BAB54221D746C0055880B /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
 		CF0BAB58221D75130055880B /* CharactersListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListDataSource.swift; sourceTree = "<group>"; };
-		CF0BAB5B221D75C80055880B /* CharactersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersController.swift; sourceTree = "<group>"; };
 		CF0BAB5D221D76FE0055880B /* CharacterDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailCoordinator.swift; sourceTree = "<group>"; };
 		CF0BAB5F221D7B8D0055880B /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		CF0BAB64221D7D810055880B /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -98,6 +97,10 @@
 		CF6615E321B43848007432AF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		CF6615EE21B449A9007432AF /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		CFD5C4232226D13700B45A55 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		CFD5C4252226D5AF00B45A55 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		CFD5C4272226D73000B45A55 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		CFD5C4282226D73000B45A55 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		CFD5C4302226DCEB00B45A55 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,24 +131,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		CF0BAB5A221D75AF0055880B /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				CF0BAB5B221D75C80055880B /* CharactersController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		CF0BAB71221D8C340055880B /* Api */ = {
-			isa = PBXGroup;
-			children = (
-				CF0BAB45221D71C00055880B /* Constants.swift */,
-				CF0BAB47221D71F30055880B /* ApiRouter.swift */,
-				CF0BAB49221D72530055880B /* ApiClient.swift */,
-			);
-			path = Api;
-			sourceTree = "<group>";
-		};
 		CF5F5CFF2216E28200FCBE46 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,10 +144,8 @@
 		CF5F5D002216E2BF00FCBE46 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				CFD5C4232226D13700B45A55 /* CharacterService.swift */,
-				CF0BAB5A221D75AF0055880B /* Controllers */,
 				CF6615A521B17C11007432AF /* Models */,
-				CF0BAB71221D8C340055880B /* Api */,
+				CFD5C42F2226D7C200B45A55 /* Services */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -197,6 +180,7 @@
 				CF66157F21AF05AE007432AF /* Info.plist */,
 				CF6615C421B340EB007432AF /* Cartfile */,
 				CF0BAB64221D7D810055880B /* .swiftlint.yml */,
+				CFD5C4252226D5AF00B45A55 /* .gitignore */,
 			);
 			path = "Meetup MVVM";
 			sourceTree = "<group>";
@@ -275,6 +259,9 @@
 		CF6615C821B3449B007432AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CFD5C4302226DCEB00B45A55 /* Result.framework */,
+				CFD5C4272226D73000B45A55 /* Moya.framework */,
+				CFD5C4282226D73000B45A55 /* RxMoya.framework */,
 				CF0BAB6D221D89490055880B /* Kingfisher.framework */,
 				CF6615EE21B449A9007432AF /* RxCocoa.framework */,
 				CF6615CA21B3449B007432AF /* Alamofire.framework */,
@@ -295,6 +282,14 @@
 				CF0BAB54221D746C0055880B /* Presentable.swift */,
 			);
 			path = Globals;
+			sourceTree = "<group>";
+		};
+		CFD5C42F2226D7C200B45A55 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CFD5C4232226D13700B45A55 /* CharacterService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD5C4262226D5AF00B45A55 /* .gitignore in Resources */,
 				CF0BAB65221D7D810055880B /* .swiftlint.yml in Resources */,
 				CF6615C521B340EB007432AF /* Cartfile in Resources */,
 				CF66157E21AF05AE007432AF /* LaunchScreen.storyboard in Resources */,
@@ -397,10 +393,7 @@
 				CF6615E421B43848007432AF /* Coordinator.swift in Sources */,
 				CF6615B821B17ECA007432AF /* CharacterDetailViewModel.swift in Sources */,
 				CF6615B621B17E9E007432AF /* CharactersListViewModel.swift in Sources */,
-				CF0BAB4A221D72530055880B /* ApiClient.swift in Sources */,
 				CF6615B321B17E6C007432AF /* CharactersListViewController.swift in Sources */,
-				CF0BAB48221D71F30055880B /* ApiRouter.swift in Sources */,
-				CF0BAB46221D71C00055880B /* Constants.swift in Sources */,
 				CF0BAB44221D71570055880B /* RxSwiftExtension.swift in Sources */,
 				CF0BAB51221D742B0055880B /* BaseHeaderCell.swift in Sources */,
 				CF6615AB21B17C80007432AF /* Character.swift in Sources */,
@@ -413,7 +406,6 @@
 				CF0BAB42221D71280055880B /* UIWindowExtension.swift in Sources */,
 				CF0BAB5E221D76FE0055880B /* CharacterDetailCoordinator.swift in Sources */,
 				CF66157421AF05AD007432AF /* AppDelegate.swift in Sources */,
-				CF0BAB5C221D75C80055880B /* CharactersController.swift in Sources */,
 				CF0BAB59221D75130055880B /* CharactersListDataSource.swift in Sources */,
 				CF0BAB55221D746C0055880B /* Presentable.swift in Sources */,
 			);
