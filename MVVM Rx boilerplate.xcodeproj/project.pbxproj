@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0687CA2226E76800565B86 /* MVVM_Rx_boilerplate_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0687C92226E76800565B86 /* MVVM_Rx_boilerplate_Tests.swift */; };
 		CF0BAB42221D71280055880B /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB41221D71280055880B /* UIWindowExtension.swift */; };
 		CF0BAB44221D71570055880B /* RxSwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB43221D71570055880B /* RxSwiftExtension.swift */; };
 		CF0BAB4D221D73F40055880B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BAB4C221D73F40055880B /* BaseModel.swift */; };
@@ -43,6 +44,16 @@
 		CFD5C4332226DCF000B45A55 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFD5C4302226DCEB00B45A55 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CF0687CC2226E76800565B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF66156821AF05AD007432AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF66156F21AF05AD007432AF;
+			remoteInfo = "MVVM Rx boilerplate";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		CF6615EB21B43A6F007432AF /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -65,6 +76,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF0687C72226E76800565B86 /* MVVM Rx boilerplate Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM Rx boilerplate Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0687C92226E76800565B86 /* MVVM_Rx_boilerplate_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Rx_boilerplate_Tests.swift; sourceTree = "<group>"; };
+		CF0687CB2226E76800565B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF0BAB41221D71280055880B /* UIWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
 		CF0BAB43221D71570055880B /* RxSwiftExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftExtension.swift; sourceTree = "<group>"; };
 		CF0BAB4C221D73F40055880B /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -104,6 +118,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CF0687C42226E76800565B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF66156D21AF05AD007432AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -114,6 +135,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0687C82226E76800565B86 /* MVVM Rx boilerplate Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF0687C92226E76800565B86 /* MVVM_Rx_boilerplate_Tests.swift */,
+				CF0687CB2226E76800565B86 /* Info.plist */,
+			);
+			path = "MVVM Rx boilerplate Tests";
+			sourceTree = "<group>";
+		};
 		CF0BAB4B221D73E30055880B /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				CF66157221AF05AD007432AF /* MVVM Rx boilerplate */,
+				CF0687C82226E76800565B86 /* MVVM Rx boilerplate Tests */,
 				CF66157121AF05AD007432AF /* Products */,
 				CF6615C821B3449B007432AF /* Frameworks */,
 			);
@@ -163,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				CF66157021AF05AD007432AF /* MVVM Rx boilerplate.app */,
+				CF0687C72226E76800565B86 /* MVVM Rx boilerplate Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -295,6 +327,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CF0687C62226E76800565B86 /* MVVM Rx boilerplate Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0687CE2226E76800565B86 /* Build configuration list for PBXNativeTarget "MVVM Rx boilerplate Tests" */;
+			buildPhases = (
+				CF0687C32226E76800565B86 /* Sources */,
+				CF0687C42226E76800565B86 /* Frameworks */,
+				CF0687C52226E76800565B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0687CD2226E76800565B86 /* PBXTargetDependency */,
+			);
+			name = "MVVM Rx boilerplate Tests";
+			productName = "MVVM Rx boilerplate Tests";
+			productReference = CF0687C72226E76800565B86 /* MVVM Rx boilerplate Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CF66156F21AF05AD007432AF /* MVVM Rx boilerplate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF66158221AF05AE007432AF /* Build configuration list for PBXNativeTarget "MVVM Rx boilerplate" */;
@@ -320,10 +370,14 @@
 		CF66156821AF05AD007432AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Faruk;
 				TargetAttributes = {
+					CF0687C62226E76800565B86 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CF66156F21AF05AD007432AF;
+					};
 					CF66156F21AF05AD007432AF = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -343,11 +397,19 @@
 			projectRoot = "";
 			targets = (
 				CF66156F21AF05AD007432AF /* MVVM Rx boilerplate */,
+				CF0687C62226E76800565B86 /* MVVM Rx boilerplate Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CF0687C52226E76800565B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF66156E21AF05AD007432AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,6 +445,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CF0687C32226E76800565B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0687CA2226E76800565B86 /* MVVM_Rx_boilerplate_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF66156C21AF05AD007432AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,6 +483,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CF0687CD2226E76800565B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF66156F21AF05AD007432AF /* MVVM Rx boilerplate */;
+			targetProxy = CF0687CC2226E76800565B86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		CF66157C21AF05AE007432AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -425,6 +503,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CF0687CF2226E76800565B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHM52EGY94;
+				INFOPLIST_FILE = "MVVM Rx boilerplate Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.MVVM-Rx-boilerplate-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM Rx boilerplate.app/MVVM Rx boilerplate";
+			};
+			name = Debug;
+		};
+		CF0687D02226E76800565B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHM52EGY94;
+				INFOPLIST_FILE = "MVVM Rx boilerplate Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.MVVM-Rx-boilerplate-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM Rx boilerplate.app/MVVM Rx boilerplate";
+			};
+			name = Release;
+		};
 		CF66158021AF05AE007432AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -588,6 +708,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CF0687CE2226E76800565B86 /* Build configuration list for PBXNativeTarget "MVVM Rx boilerplate Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0687CF2226E76800565B86 /* Debug */,
+				CF0687D02226E76800565B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "MVVM Rx boilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
