@@ -19,6 +19,9 @@ class CharactersListViewController: UIViewController {
         let table = UITableView()
         table.dataSource = self
         table.delegate = self
+
+        // Color example
+        table.backgroundColor = Colors.Color.white
         return table
     }()
 

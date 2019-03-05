@@ -15,7 +15,9 @@ import RxMoya
 class CharactersListViewModel: BaseModel {
 
     var dataReady = Variable<Bool>(false)
-    let title = Variable<String>("Characters")
+
+    // Localization example
+    let title = Variable<String>("Characters".localized)
     
     let characters = Variable<[Character]>([])
 
