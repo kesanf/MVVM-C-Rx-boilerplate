@@ -10,7 +10,6 @@ Table of Contents
 - [Frameworks](#frameworks)
 - [Tools](#tools)
 - [Resources](#resources)
-- [Beta Deployment](#beta-deployment) <!-- - [Changelog](#changelog) -->
 - [Contributing](#contributing)
 
 ## Prerequisites
