@@ -1,5 +1,7 @@
 # mvvm-rx-boilerplate
-============================
+
+Table of Contents
+-----------------
 
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
