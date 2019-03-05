@@ -28,7 +28,7 @@ Table of Contents
 ## Resources
 
 - [Ray Wenderlich](https://www.raywenderlich.com/) - The largest collection of Swift & iOS video tutorials anywhere.
-- [design&code](https://designcode.io/iosdesign-guidelines) - iOS 11 Design Guidelines for iPhone and iPad.
+- [Design Guidelines](https://designcode.io/iosdesign-guidelines) - iOS 11 Design Guidelines for iPhone and iPad.
 
 ## Contributing
 
