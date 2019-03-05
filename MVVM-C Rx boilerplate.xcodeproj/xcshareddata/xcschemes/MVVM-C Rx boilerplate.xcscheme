@@ -17,7 +17,7 @@
                BlueprintIdentifier = "CF66156F21AF05AD007432AF"
                BuildableName = "MVVM Rx boilerplate.app"
                BlueprintName = "MVVM Rx boilerplate"
-               ReferencedContainer = "container:MVVM Rx boilerplate.xcodeproj">
+               ReferencedContainer = "container:MVVM-C Rx boilerplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "CF0687C62226E76800565B86"
                BuildableName = "MVVM Rx boilerplate Tests.xctest"
                BlueprintName = "MVVM Rx boilerplate Tests"
-               ReferencedContainer = "container:MVVM Rx boilerplate.xcodeproj">
+               ReferencedContainer = "container:MVVM-C Rx boilerplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "CF66156F21AF05AD007432AF"
             BuildableName = "MVVM Rx boilerplate.app"
             BlueprintName = "MVVM Rx boilerplate"
-            ReferencedContainer = "container:MVVM Rx boilerplate.xcodeproj">
+            ReferencedContainer = "container:MVVM-C Rx boilerplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -68,7 +68,7 @@
             BlueprintIdentifier = "CF66156F21AF05AD007432AF"
             BuildableName = "MVVM Rx boilerplate.app"
             BlueprintName = "MVVM Rx boilerplate"
-            ReferencedContainer = "container:MVVM Rx boilerplate.xcodeproj">
+            ReferencedContainer = "container:MVVM-C Rx boilerplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -87,7 +87,7 @@
             BlueprintIdentifier = "CF66156F21AF05AD007432AF"
             BuildableName = "MVVM Rx boilerplate.app"
             BlueprintName = "MVVM Rx boilerplate"
-            ReferencedContainer = "container:MVVM Rx boilerplate.xcodeproj">
+            ReferencedContainer = "container:MVVM-C Rx boilerplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

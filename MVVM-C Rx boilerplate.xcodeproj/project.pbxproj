@@ -39,7 +39,7 @@
 		CF6615F121B449AD007432AF /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6615EE21B449A9007432AF /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF693F5B222E995400CC5E51 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF693F5D222E995400CC5E51 /* Localizable.strings */; };
 		CF693F5F222E99AB00CC5E51 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF693F5E222E99AB00CC5E51 /* StringExtension.swift */; };
-		CF693F6C222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF693F6A222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld */; };
+		CF693F6C222E9C0B00CC5E51 /* MVVM-C Rx boilerplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF693F6A222E9C0B00CC5E51 /* MVVM-C Rx boilerplate.xcdatamodeld */; };
 		CF693F6F222E9D6000CC5E51 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF693F6E222E9D6000CC5E51 /* ColorHelper.swift */; };
 		CF693F71222E9D9900CC5E51 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF693F70222E9D9900CC5E51 /* Colors.swift */; };
 		CFD5C4242226D13700B45A55 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5C4232226D13700B45A55 /* CharacterService.swift */; };
@@ -117,7 +117,7 @@
 		CF6615EE21B449A9007432AF /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		CF693F5C222E995400CC5E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CF693F5E222E99AB00CC5E51 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		CF693F6B222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MVVM Rx boilerplate.xcdatamodel"; sourceTree = "<group>"; };
+		CF693F6B222E9C0B00CC5E51 /* MVVM-C Rx boilerplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MVVM-C Rx boilerplate.xcdatamodel"; sourceTree = "<group>"; };
 		CF693F6E222E9D6000CC5E51 /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		CF693F70222E9D9900CC5E51 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CFD5C4232226D13700B45A55 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
@@ -145,13 +145,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF0687C82226E76800565B86 /* MVVM Rx boilerplate Tests */ = {
+		CF0687C82226E76800565B86 /* MVVM-C Rx boilerplate Tests */ = {
 			isa = PBXGroup;
 			children = (
 				CF0687C92226E76800565B86 /* MVVM_Rx_boilerplate_Tests.swift */,
 				CF0687CB2226E76800565B86 /* Info.plist */,
 			);
-			path = "MVVM Rx boilerplate Tests";
+			path = "MVVM-C Rx boilerplate Tests";
 			sourceTree = "<group>";
 		};
 		CF0BAB4B221D73E30055880B /* Base */ = {
@@ -194,8 +194,8 @@
 		CF66156721AF05AD007432AF = {
 			isa = PBXGroup;
 			children = (
-				CF66157221AF05AD007432AF /* MVVM Rx boilerplate */,
-				CF0687C82226E76800565B86 /* MVVM Rx boilerplate Tests */,
+				CF66157221AF05AD007432AF /* MVVM-C Rx boilerplate */,
+				CF0687C82226E76800565B86 /* MVVM-C Rx boilerplate Tests */,
 				CF66157121AF05AD007432AF /* Products */,
 				CF6615C821B3449B007432AF /* Frameworks */,
 			);
@@ -210,7 +210,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF66157221AF05AD007432AF /* MVVM Rx boilerplate */ = {
+		CF66157221AF05AD007432AF /* MVVM-C Rx boilerplate */ = {
 			isa = PBXGroup;
 			children = (
 				CF693F6D222E9D4E00CC5E51 /* Helpers */,
@@ -224,7 +224,7 @@
 				CF0BAB64221D7D810055880B /* .swiftlint.yml */,
 				CFD5C4252226D5AF00B45A55 /* .gitignore */,
 			);
-			path = "MVVM Rx boilerplate";
+			path = "MVVM-C Rx boilerplate";
 			sourceTree = "<group>";
 		};
 		CF6615A521B17C11007432AF /* Models */ = {
@@ -358,7 +358,7 @@
 		CF693F66222E9BD700CC5E51 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				CF693F6A222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld */,
+				CF693F6A222E9C0B00CC5E51 /* MVVM-C Rx boilerplate.xcdatamodeld */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -438,7 +438,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "MVVM Rx boilerplate" */;
+			buildConfigurationList = CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "MVVM-C Rx boilerplate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -515,7 +515,7 @@
 			files = (
 				CFD5C4242226D13700B45A55 /* CharacterService.swift in Sources */,
 				CF6615E221B43779007432AF /* AppCoordinator.swift in Sources */,
-				CF693F6C222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld in Sources */,
+				CF693F6C222E9C0B00CC5E51 /* MVVM-C Rx boilerplate.xcdatamodeld in Sources */,
 				CF0BAB4F221D740C0055880B /* BaseTableCell.swift in Sources */,
 				CF6615E421B43848007432AF /* Coordinator.swift in Sources */,
 				CF6615B821B17ECA007432AF /* CharacterDetailViewModel.swift in Sources */,
@@ -739,12 +739,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "MVVM Rx boilerplate/Support/Info.plist";
+				INFOPLIST_FILE = "MVVM-C Rx boilerplate/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.MVVM-Rx-boilerplate";
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.MVVM-C-Rx-boilerplate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -761,12 +761,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "MVVM Rx boilerplate/Support/Info.plist";
+				INFOPLIST_FILE = "MVVM-C Rx boilerplate/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.MVVM-Rx-boilerplate";
+				PRODUCT_BUNDLE_IDENTIFIER = "ba.faruk.MVVM-C-Rx-boilerplate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -785,7 +785,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "MVVM Rx boilerplate" */ = {
+		CF66156B21AF05AD007432AF /* Build configuration list for PBXProject "MVVM-C Rx boilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF66158021AF05AE007432AF /* Debug */,
@@ -806,14 +806,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CF693F6A222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld */ = {
+		CF693F6A222E9C0B00CC5E51 /* MVVM-C Rx boilerplate.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CF693F6B222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodel */,
+				CF693F6B222E9C0B00CC5E51 /* MVVM-C Rx boilerplate.xcdatamodel */,
 			);
-			currentVersion = CF693F6B222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodel */;
-			name = "MVVM Rx boilerplate.xcdatamodeld";
-			path = "../../MVVM Rx boilerplate.xcdatamodeld";
+			currentVersion = CF693F6B222E9C0B00CC5E51 /* MVVM-C Rx boilerplate.xcdatamodel */;
+			name = "MVVM-C Rx boilerplate.xcdatamodeld";
+			path = "../../MVVM-C Rx boilerplate.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
