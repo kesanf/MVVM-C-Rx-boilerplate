@@ -4,10 +4,8 @@ Table of Contents
 -----------------
 
 - [Prerequisites](#prerequisites)
-
 - [Quick Start](#quick-start)
 - [List of Frameworks](#list-of-frameworks)
-
 - [Tools](#tools)
 - [Resources](#resources)
 - [Beta Deployment](#beta-deployment) <!-- - [Changelog](#changelog) -->
@@ -24,7 +22,7 @@ Table of Contents
 
 ## Frameworks
 
-| Required Framework | Description |
+|  Required Framework  | Description |
 | ------------------------------- | --------------------------------------------------------------------- |
 | RxSwift | ReactiveX for Swift |
 | SnapKit | SnapKit is a DSL to make Auto Layout easy on both iOS and OS X |
