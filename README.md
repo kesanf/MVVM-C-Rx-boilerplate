@@ -1,10 +1,9 @@
-# mvvm-rx-boilerplate
+# mvvm-c-rx-boilerplate
 
 Table of Contents
 -----------------
 
 - [Prerequisites](#prerequisites)
-- [Project Structure](#project-structure)
 - [Workspace Preparing](#workspace-preparing)
 - [Obtaining the Defines](#obtaining-the-defines)
 - [List of Frameworks](#list-of-frameworks)
@@ -17,3 +16,7 @@ Table of Contents
 - [MacOS Mojave (10.14.2 or higher)](https://www.apple.com/lae/macos/mojave/)
 - [Xcode 10.1 or higher](https://developer.apple.com/download/) ~ Swift 4.2
 - [Carthage 0.31.2 or higher](https://github.com/Carthage/Carthage)
+
+## Contributing
+
+If you have something unclear or confusing, please let me know. I am also open to suggestions. If you would like to contribute or improve something, feel free to do it (open an issue and submit pull request).
