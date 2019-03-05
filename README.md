@@ -32,7 +32,7 @@ Table of Contents
 | Moya | Network abstraction layer written in Swift |
 
 | Optional Framework | Description |
-
+| ------------------------------- | --------------------------------------------------------------------- |
 | IQKeyboardManagerSwift | Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more |
 | KeychainSwift | Helper functions for storing text in Keychain for iOS, macOS, tvOS and WatchOS |
 | SVProgressHUD | A clean and lightweight progress HUD for your iOS and tvOS app |
