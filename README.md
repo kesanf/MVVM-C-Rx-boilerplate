@@ -1,3 +1,5 @@
+![](./assets/cover.png)
+
 # mvvm-c-rx-boilerplate
 
 Table of Contents
