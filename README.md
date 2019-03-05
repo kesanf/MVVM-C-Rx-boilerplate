@@ -9,7 +9,7 @@ Table of Contents
 - [List of Frameworks](#list-of-frameworks)
 - [Useful Tools and Resources](#useful-tools-and-resources) <!-- - [FAQ](#faq) -->
 - [Beta Deployment](#beta-deployment) <!-- - [Changelog](#changelog) -->
-- [Contributing](contributing)
+- [Contributing](#contributing)
 
 ## Prerequisites
 
