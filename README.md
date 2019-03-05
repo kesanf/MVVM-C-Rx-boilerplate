@@ -55,4 +55,4 @@ Table of Contents
 
 ## Contributing
 
-If you have something unclear or confusing, please let me know. I am also open to suggestions. If you would like to contribute or improve something, feel free to do it (open an issue and submit pull request).
+If you have something unclear or confusing, please let me know. I am also open to suggestions. If you would like to contribute or improve something, feel free to do it (open an issue and submit pull request). Also feel free to improve `README.md` file.
