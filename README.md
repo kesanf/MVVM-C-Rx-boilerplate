@@ -7,7 +7,7 @@ Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
-- [List of Frameworks](#list-of-frameworks)
+- [Frameworks](#frameworks)
 - [Tools](#tools)
 - [Resources](#resources)
 - [Beta Deployment](#beta-deployment) <!-- - [Changelog](#changelog) -->
