@@ -17,6 +17,8 @@ Table of Contents
 - [Xcode 10.1 or higher](https://developer.apple.com/download/) ~ Swift 4.2
 - [Carthage 0.31.2 or higher](https://github.com/Carthage/Carthage)
 
+NOTE: It might work with older versions, but I didn't test. This is my current setup.
+
 ## Quick Start
 - Clone repo
 - Rename project ([Guide](https://stackoverflow.com/questions/33370175/how-do-i-completely-rename-an-xcode-project-i-e-inclusive-of-folders))
