@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,15 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         guard let win = window else { fatalError() }
         appCoordinator = AppCoordinator(window: win)
         appCoordinator.start()
-
-//        var charactersListViewController = CharactersListViewController()
-//        let charactersListViewModel = CharactersListViewModel()
-//        charactersListViewController.bind(to: charactersListViewModel)
-//        let navigationController = UINavigationController(rootViewController: charactersListViewController)
-//        navigationController.navigationBar.prefersLargeTitles = true
-//        navigationController.navigationItem.largeTitleDisplayMode = .always
-//        self.window?.rootViewController = navigationController
-//        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

@@ -2,3 +2,10 @@ github "ReactiveX/RxSwift" ~> 4.0
 github "SnapKit/SnapKit" ~> 4.0.0
 github "onevcat/Kingfisher" ~> 5.0
 github "Moya/Moya" ~> 12.0
+
+# Uncomment if you need thoose:
+# github "hackiftekhar/IQKeyboardManager"
+# github "evgenyneu/keychain-swift" ~> 13.0
+# github "SVProgressHUD/SVProgressHUD"
+
+# To add Fabric/Crashlytics - do it manually. Sadly Carthage doesn't support Fabric/Crashlytics

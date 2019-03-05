@@ -37,6 +37,11 @@
 		CF6615E821B43A6F007432AF /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6615CB21B3449B007432AF /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF6615EA21B43A6F007432AF /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6615C921B3449B007432AF /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF6615F121B449AD007432AF /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6615EE21B449A9007432AF /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF693F5B222E995400CC5E51 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF693F5D222E995400CC5E51 /* Localizable.strings */; };
+		CF693F5F222E99AB00CC5E51 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF693F5E222E99AB00CC5E51 /* StringExtension.swift */; };
+		CF693F6C222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF693F6A222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld */; };
+		CF693F6F222E9D6000CC5E51 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF693F6E222E9D6000CC5E51 /* ColorHelper.swift */; };
+		CF693F71222E9D9900CC5E51 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF693F70222E9D9900CC5E51 /* Colors.swift */; };
 		CFD5C4242226D13700B45A55 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5C4232226D13700B45A55 /* CharacterService.swift */; };
 		CFD5C4262226D5AF00B45A55 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CFD5C4252226D5AF00B45A55 /* .gitignore */; };
 		CFD5C42C2226D73600B45A55 /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFD5C4272226D73000B45A55 /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -110,6 +115,11 @@
 		CF6615E121B43779007432AF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		CF6615E321B43848007432AF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		CF6615EE21B449A9007432AF /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		CF693F5C222E995400CC5E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF693F5E222E99AB00CC5E51 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		CF693F6B222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MVVM Rx boilerplate.xcdatamodel"; sourceTree = "<group>"; };
+		CF693F6E222E9D6000CC5E51 /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		CF693F70222E9D9900CC5E51 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CFD5C4232226D13700B45A55 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		CFD5C4252226D5AF00B45A55 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		CFD5C4272226D73000B45A55 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
@@ -167,6 +177,7 @@
 				CF0BAB43221D71570055880B /* RxSwiftExtension.swift */,
 				CF0BAB41221D71280055880B /* UIWindowExtension.swift */,
 				CF0BAB5F221D7B8D0055880B /* UIImageViewExtension.swift */,
+				CF693F5E222E99AB00CC5E51 /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -202,14 +213,13 @@
 		CF66157221AF05AD007432AF /* MVVM Rx boilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				CF5F5D002216E2BF00FCBE46 /* Network */,
+				CF693F6D222E9D4E00CC5E51 /* Helpers */,
+				CF693F66222E9BD700CC5E51 /* Database */,
+				CF693F60222E9A2100CC5E51 /* Support */,
 				CF5F5CFF2216E28200FCBE46 /* Extensions */,
 				CF6615E021B4376D007432AF /* Globals */,
+				CF5F5D002216E2BF00FCBE46 /* Network */,
 				CF6615A721B17C28007432AF /* Features */,
-				CF66157321AF05AD007432AF /* AppDelegate.swift */,
-				CF66157A21AF05AE007432AF /* Assets.xcassets */,
-				CF66157C21AF05AE007432AF /* LaunchScreen.storyboard */,
-				CF66157F21AF05AE007432AF /* Info.plist */,
 				CF6615C421B340EB007432AF /* Cartfile */,
 				CF0BAB64221D7D810055880B /* .swiftlint.yml */,
 				CFD5C4252226D5AF00B45A55 /* .gitignore */,
@@ -306,6 +316,8 @@
 		CF6615E021B4376D007432AF /* Globals */ = {
 			isa = PBXGroup;
 			children = (
+				CF66157C21AF05AE007432AF /* LaunchScreen.storyboard */,
+				CF66157321AF05AD007432AF /* AppDelegate.swift */,
 				CF0BAB4B221D73E30055880B /* Base */,
 				CF6615E121B43779007432AF /* AppCoordinator.swift */,
 				CF6615E321B43848007432AF /* Coordinator.swift */,
@@ -314,6 +326,49 @@
 				CF0BAB54221D746C0055880B /* Presentable.swift */,
 			);
 			path = Globals;
+			sourceTree = "<group>";
+		};
+		CF693F60222E9A2100CC5E51 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CF693F62222E9A9400CC5E51 /* Colors */,
+				CF693F61222E9A8900CC5E51 /* Fonts */,
+				CF693F5D222E995400CC5E51 /* Localizable.strings */,
+				CF66157F21AF05AE007432AF /* Info.plist */,
+				CF66157A21AF05AE007432AF /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CF693F61222E9A8900CC5E51 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CF693F62222E9A9400CC5E51 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				CF693F70222E9D9900CC5E51 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		CF693F66222E9BD700CC5E51 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CF693F6A222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CF693F6D222E9D4E00CC5E51 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CF693F6E222E9D6000CC5E51 /* ColorHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		CFD5C42F2226D7C200B45A55 /* Services */ = {
@@ -415,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD5C4262226D5AF00B45A55 /* .gitignore in Resources */,
+				CF693F5B222E995400CC5E51 /* Localizable.strings in Resources */,
 				CF0BAB65221D7D810055880B /* .swiftlint.yml in Resources */,
 				CF6615C521B340EB007432AF /* Cartfile in Resources */,
 				CF66157E21AF05AE007432AF /* LaunchScreen.storyboard in Resources */,
@@ -459,9 +515,11 @@
 			files = (
 				CFD5C4242226D13700B45A55 /* CharacterService.swift in Sources */,
 				CF6615E221B43779007432AF /* AppCoordinator.swift in Sources */,
+				CF693F6C222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld in Sources */,
 				CF0BAB4F221D740C0055880B /* BaseTableCell.swift in Sources */,
 				CF6615E421B43848007432AF /* Coordinator.swift in Sources */,
 				CF6615B821B17ECA007432AF /* CharacterDetailViewModel.swift in Sources */,
+				CF693F71222E9D9900CC5E51 /* Colors.swift in Sources */,
 				CF6615B621B17E9E007432AF /* CharactersListViewModel.swift in Sources */,
 				CF6615B321B17E6C007432AF /* CharactersListViewController.swift in Sources */,
 				CF0BAB44221D71570055880B /* RxSwiftExtension.swift in Sources */,
@@ -475,8 +533,10 @@
 				CF6615DF21B43638007432AF /* BindableType.swift in Sources */,
 				CF0BAB42221D71280055880B /* UIWindowExtension.swift in Sources */,
 				CF0BAB5E221D76FE0055880B /* CharacterDetailCoordinator.swift in Sources */,
+				CF693F6F222E9D6000CC5E51 /* ColorHelper.swift in Sources */,
 				CF66157421AF05AD007432AF /* AppDelegate.swift in Sources */,
 				CF0BAB59221D75130055880B /* CharactersListDataSource.swift in Sources */,
+				CF693F5F222E99AB00CC5E51 /* StringExtension.swift in Sources */,
 				CF0BAB55221D746C0055880B /* Presentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +558,14 @@
 				CF66157D21AF05AE007432AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CF693F5D222E995400CC5E51 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF693F5C222E995400CC5E51 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -671,7 +739,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "MVVM Rx boilerplate/Info.plist";
+				INFOPLIST_FILE = "MVVM Rx boilerplate/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -693,7 +761,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "MVVM Rx boilerplate/Info.plist";
+				INFOPLIST_FILE = "MVVM Rx boilerplate/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -736,6 +804,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF693F6A222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF693F6B222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodel */,
+			);
+			currentVersion = CF693F6B222E9C0B00CC5E51 /* MVVM Rx boilerplate.xcdatamodel */;
+			name = "MVVM Rx boilerplate.xcdatamodeld";
+			path = "../../MVVM Rx boilerplate.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CF66156821AF05AD007432AF /* Project object */;
 }
