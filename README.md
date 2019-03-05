@@ -24,12 +24,14 @@ Table of Contents
 
 ## Frameworks
 
-| Framework | Description |
+| Required Framework | Description |
 | ------------------------------- | --------------------------------------------------------------------- |
 | RxSwift | ReactiveX for Swift |
 | SnapKit | SnapKit is a DSL to make Auto Layout easy on both iOS and OS X |
 | Kingfisher | Kingfisher is a powerful, pure-Swift library for downloading and caching images from the web |
 | Moya | Network abstraction layer written in Swift |
+
+
 
 | Optional Framework | Description |
 | ------------------------------- | --------------------------------------------------------------------- |
