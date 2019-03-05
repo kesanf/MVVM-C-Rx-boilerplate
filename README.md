@@ -4,9 +4,10 @@ Table of Contents
 -----------------
 
 - [Prerequisites](#prerequisites)
-- [Workspace Preparing](#workspace-preparing)
-- [Obtaining the Defines](#obtaining-the-defines)
+
+- [Quick Start](#quick-start)
 - [List of Frameworks](#list-of-frameworks)
+
 - [Tools](#tools)
 - [Resources](#resources)
 - [Beta Deployment](#beta-deployment) <!-- - [Changelog](#changelog) -->
@@ -17,6 +18,25 @@ Table of Contents
 - [MacOS Mojave (10.14.2 or higher)](https://www.apple.com/lae/macos/mojave/)
 - [Xcode 10.1 or higher](https://developer.apple.com/download/) ~ Swift 4.2
 - [Carthage 0.31.2 or higher](https://github.com/Carthage/Carthage)
+
+## Quick Start
+
+
+## Frameworks
+
+| Framework | Description |
+| ------------------------------- | --------------------------------------------------------------------- |
+| RxSwift | ReactiveX for Swift |
+| SnapKit | SnapKit is a DSL to make Auto Layout easy on both iOS and OS X |
+| Kingfisher | Kingfisher is a powerful, pure-Swift library for downloading and caching images from the web |
+| Moya | Network abstraction layer written in Swift |
+
+| Optional Framework | Description |
+
+| IQKeyboardManagerSwift | Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more |
+| KeychainSwift | Helper functions for storing text in Keychain for iOS, macOS, tvOS and WatchOS |
+| SVProgressHUD | A clean and lightweight progress HUD for your iOS and tvOS app |
+| Fabric/Crashlytics | Crash reporting & beta deployment. |
 
 ## Tools
 
